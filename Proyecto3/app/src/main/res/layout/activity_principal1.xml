@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".principal1">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/txt_cambiar"
+            android:layout_width="match_parent"
+            android:layout_height="64dp"
+            android:paddingTop="10dp"
+            android:text="Aqui hay un texto"
+            android:textAlignment="center"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="27dp"
+            tools:layout_editor_absoluteY="77dp" />
+
+        <Button
+            android:id="@+id/btm_aceptar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Aceptar" />
+
+        <EditText
+            android:id="@+id/idescribir"
+            android:layout_width="match_parent"
+            android:layout_height="75dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="Escribe Aquí!" />
+
+        <Button
+            android:id="@+id/btm_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Button 1" />
+
+        <Button
+            android:id="@+id/btm_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Button 2" />
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Calendarios UTP</string>
+    <string name="title_activity_tab_navigador">TabNavigador</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="button_text">Pregrado</string>
+    <string name="button_text2">PostGrado</string>
+    <string-array name="Tags">
+        <item>Bienvenido a Calendario UTP</item>
+        <item>Calendario Academico</item>
+        <item>Calendario de Pago</item>
+        <item>Sugerencia</item>
+        <!--<item>Python</item>
+        <item>Ruby on Rails</item>-->
+    </string-array>
+    <string name="drawer_open">Abrir navigation drawer</string>
+    <string name="drawer_close">Cerrar navigation drawer</string>
+    <string name="headlines">Calendario UTP </string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

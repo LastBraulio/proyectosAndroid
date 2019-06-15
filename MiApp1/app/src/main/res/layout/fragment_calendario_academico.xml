@@ -1,0 +1,47 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.darkm.miapp1.CalendarioAcademico">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:text="Calendario Academico"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView3"
+            android:textSize="25dp"
+            android:layout_marginTop="25dp"
+            android:layout_marginLeft="50dp" />
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/button_text"
+            android:drawableLeft="@mipmap/ic_launcher"
+            android:drawablePadding="15dp"
+            android:gravity="left|center_vertical"
+            android:text="@string/button_text"
+            android:layout_marginTop="50dp" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/button_text2"
+            android:drawableLeft="@mipmap/ic_launcher"
+            android:drawablePadding="15dp"
+            android:gravity="left|center_vertical"
+            android:text="@string/button_text2"
+            tools:ignore="RtlHardcoded"
+            android:onClick="llamaract2" />
+
+    </LinearLayout>
+
+</FrameLayout>
